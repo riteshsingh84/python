@@ -36,13 +36,13 @@ f_write = open("C://Ritesh//Work//R_AND_D//AI//Python//Exercise//Basics//data//f
 with open("C://Ritesh//Work//R_AND_D//AI//Python//Exercise//Basics//data//funny.txt","r") as f_read:
     # Reading the content from file line by line.
     for line in f_read:
-        words = line.split(' ') # Spliting the words with space.
+        words = line.split(' ') # Splitting the words with space.
         f_write.write("Wordcount:" + str(len(words)) + " " + line) # Writing the data line by line in new file.
 
 # closing the text file
 f_write.close()
 
-# Checking if file is realy closed or not
+# Checking if file is really closed or not
 print("f_read is closed: ", f_read.closed)
 print("f_write is closed: ", f_read.closed)
 

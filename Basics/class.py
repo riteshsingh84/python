@@ -1,5 +1,5 @@
 """
-This is the sample programe to work with class in python
+This is the sample program to work with class in python
 """
 class Human:
     def __init__(self,n,o,l):
