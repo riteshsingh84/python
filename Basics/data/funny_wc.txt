@@ -1,0 +1,3 @@
+Wordcount:3 I love python.
+Wordcount:3 I love javascript.
+Wordcount:3 I love C#.

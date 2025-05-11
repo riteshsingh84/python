@@ -1,0 +1,1 @@
+{"Ritesh": {"name": "Ritesh", "address": "Bergwerkstrasse 76, Sargans, Switzerland", "phone": "9876543782"}, "Aditya": {"name": "Aditya", "address": "364 D/2, Munikra, NewDelhi, India", "phone": "56786543782"}}
