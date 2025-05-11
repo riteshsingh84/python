@@ -1,4 +1,4 @@
-#Write a programe to sub to numbers
+#Write a program to sub to numbers
 # num1 = input("Please enter first number: ")
 # num1 = int(num1)
 
@@ -9,7 +9,7 @@
 
 # print("Subtraction of first and second number is ",Total)
 
-# #Write a programe to add to numbers
+# #Write a program to add to numbers
 # num1 = input("Please enter first number: ")
 # num1 = int(num1)
 

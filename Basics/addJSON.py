@@ -1,22 +1,22 @@
 """
-This is the sample programe to work with JSON in python
+This is the sample program to work with JSON in python
 """
-# Initilizing dictonary
+# Initializing dictionary
 addbook = {}
 
-# Adding Ritesh address in dictonary into JSON format
+# Adding Ritesh address in dictionary into JSON format
 addbook["Ritesh"] = {"name":"Ritesh",
                   "address":"Bergwerkstrasse 76, Sargans, Switzerland",
                   "phone" : "9876543782"
                   }
 
-# Adding Aditya address in dictonary into JSON format
+# Adding Aditya address in dictionary into JSON format
 addbook["Aditya"] = {"name":"Aditya",
                   "address":"364 D/2, Munikra, NewDelhi, India" ,
                   "phone" : "56786543782"
                   }
 
-# Importin JSON module to work with JSON
+# Import in JSON module to work with JSON
 import json
 
 # Converting from JSON to string
