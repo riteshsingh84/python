@@ -39,4 +39,4 @@ Examples:
    record^one
    continue
    
-   [Solution](https://github.com/riteshsingh84/python/tree/main/Basics/1_variables/variables_exercise.py)
+   [Solution](https://github.com/riteshsingh84/python/tree/main/Basics/1_variables/exercise.py)
