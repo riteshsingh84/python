@@ -1,6 +1,6 @@
 ### Python Variables
-A variable is a name given to a memory location in a program. It's value may be changed during program execution.
-In python you can assign variable any value, not like strict typed language where you have to declare data type of a variable in advance.
+* A variable is a name given to a memory location in a program. It's value may be changed during program execution.
+* In python you can assign variable any value, not like strict typed language where you have to declare data type of a variable in advance.
 
 Examples:
 
@@ -31,12 +31,12 @@ Examples:
 2. Create two variables. One to store your birth year and another one to store current year. Now calculate your age using these two variables
 3. Store your first, middle and last name in three different variables and then print your full name using these variables
 4. Answer which of these are invalid variable names: 
-   _nation
-   1record
-   record1
-   record_one
-   record-one
-   record^one
-   continue
+      * _nation
+      * 1record
+      * record1
+      * record_one
+      * record-one
+      * record^one
+      *  continue
    
    [Solution](https://github.com/riteshsingh84/python/tree/main/Basics/1_variables/exercise.py)
