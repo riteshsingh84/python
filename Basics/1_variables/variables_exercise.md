@@ -4,10 +4,12 @@ In python you can assign variable any value, not like strict typed language wher
 
 Examples:
 
-      name = "Ritesh Singh" 
-      age = 23
-      price = 25.99
-      married = True
+      person_name = "Ritesh Singh" # String variable
+      person_age = 23 # Integer variable
+      person_height = 25.99 # Float variable
+      person_married = True  # Boolean variable. True or False
+      person_income = None # None variable. No Value is assigned to this variable.
+      x = 4 + 5j # Complex number
 
 ### Rules for Variables
 1. Variables can be combination of uppercase and lowercase letters, digits or underscore (_).
