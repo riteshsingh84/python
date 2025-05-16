@@ -1,5 +1,6 @@
 ### Python Variables
 A variable is a name given to a memory location in a program. It's value may be changed during program execution.
+In python you can assign variable any value, not like strict typed language where you have to declare data type of a variable in advance.
 
 Examples:
 
