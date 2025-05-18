@@ -1,6 +1,6 @@
 # Python List vs Set vs Dict Comprehension
 
-## List
+## 🧾 List
 List comprehension is a concise way to create lists in Python using a single line of code. It’s often more readable and efficient than using a traditional for loop.
 
     1. Ordered collection of items
@@ -8,7 +8,7 @@ List comprehension is a concise way to create lists in Python using a single lin
     3. Mutable (can be changed after creation)
     4. Items are accessed by index
     5. Initialize with []
-### Basic Syntax
+### 🔧 Basic Syntax
     [expression for item in iterable if condition]
 
 * **expression:** the value to put in the list
@@ -16,13 +16,13 @@ List comprehension is a concise way to create lists in Python using a single lin
 * **iterable:** a sequence (like a list, range, etc.)
 * **condition (optional):** a filter to include only certain items
 
-### Example:
+### ✅ Example:
     1. Using list comprehension to create a new list with even numbers
 
     even_numbers = [num for num in numbers if num % 2 == 0]
     print("Even numbers using list comprehension:", even_numbers)
 
-## Set
+## 🧮 Set
 Set comprehension in Python is similar to list comprehension, but it creates a set instead of a list. The syntax is almost the same, except you use curly braces {} instead of square brackets [].
 
     1. Unordered collection of unique items
@@ -32,20 +32,20 @@ Set comprehension in Python is similar to list comprehension, but it creates a s
     position)
     5. Initialize with {}
   
-### Basic Syntax
+### 🔧 Basic Syntax
     {expression for item in iterable if condition}
 
 * Creates a set by evaluating the expression for each item in the iterable.
 * Automatically removes duplicates (since sets only store unique values).
 
-### Example:
+### ✅ Example:
     1. Using set comprehension to create a new set with unique numbers
     duplicate_numbers = [1,2,4,3,5,6,7,8,9,10,1,2,3,4,5]
     unique_numbers = {num for num in duplicate_numbers} 
     unique_numbers_set = set(duplicate_numbers) #alternative way to create a set
     print("Unique numbers using set comprehension:", unique_numbers, unique_numbers_set)
 
-## Dictionary (dict)
+## 🗂️ Dictionary (dict)
 
 Dictionary comprehension is a concise way to create dictionaries in Python using a single line of code. It’s similar to list and set comprehensions, but it builds key-value pairs.
 
@@ -55,7 +55,7 @@ Dictionary comprehension is a concise way to create dictionaries in Python using
     4. Mutable
     5. Initialize with {}
 
-### Basic Syntax
+### 🔧 Basic Syntax
     {key_expression: value_expression for item in iterable if condition}
 
 * **key_expression:** what you want to use as the key
@@ -63,13 +63,13 @@ Dictionary comprehension is a concise way to create dictionaries in Python using
 * **iterable:** a sequence to loop over
 * **condition (optional):** filter to include only certain items
 
-### Example:
+### ✅ Example:
     original = {"a": 1, "b": 2, "c": 3}
     swapped = {v: k for k, v in original.items()}
     print(swapped)  # Output: {1: 'a', 2: 'b', 3: 'c'}
 
 
-## Exercise
+## 🧠 Exercise
 
 1. Create a Dictionary which contains the Binary values mapping with numbers found in the below integer and binary and save it in binary_dict.
 Example :

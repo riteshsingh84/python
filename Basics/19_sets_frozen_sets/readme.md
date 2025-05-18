@@ -26,16 +26,17 @@ A frozenset is:
     1. Immutable: Cannot be changed after creation
     2. Still unordered and unique
     3. Useful as a dictionary key or in other sets (because it's hashable)  
+    4. As it's frozenset, so does't support method like add(),remove() etc.
 
-### Basic Syntax
+### 🔧 Basic Syntax
     frozenset([comma separated items])
 
-### Example:
+### ✅ Example:
     my_frozenset = frozenset([1, 2, 3, 2])
     print(my_frozenset)  # Output: frozenset({1, 2, 3})
 
 
-## Exercise
+## 🧠 Exercise
 
 1. Create any set anf try to use frozenset(setname)
 
