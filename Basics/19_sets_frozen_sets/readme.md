@@ -48,4 +48,4 @@ Example:
 
         Difference between set1 and set2 is {1,2,3}
    
-   [Solution](https://github.com/riteshsingh84/python/tree/main/Basics/19_sets_frozensets/exercise.py)
+   [Solution](https://github.com/riteshsingh84/python/tree/main/Basics/19_sets_frozen_sets/exercise.py)
