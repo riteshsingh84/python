@@ -37,7 +37,11 @@ if __name__ == "__main__":
     elif operation == "multiply":
         result = number1 * number2
     elif operation == "division":
-        result = number1 / number2
+        if number2 == 0:
+            print("Error: Division by zero is not allowed.")
+            result = None
+        else:
+            result = number1 / number2
     else:
         print ("Invalid operation")        
 
