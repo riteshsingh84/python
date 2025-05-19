@@ -16,4 +16,4 @@ List Comprehension provides a way to transform one list into another
 ## Exercise
 
    
-   [Solution](https://github.com/riteshsingh84/python/tree/main/Basics/18_list_set_dict/exercise.py)
+   [Solution](https://github.com/riteshsingh84/python/tree/main/Basics/04_lists/exercise.py)
