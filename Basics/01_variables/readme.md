@@ -1,4 +1,4 @@
-### Python Variables
+# Python Variables
 * A variable is a name given to a memory location in a program. It's value may be changed during program execution.
 * In python you can assign variable any value, not like strict typed language where you have to declare data type of a variable in advance.
 
@@ -11,7 +11,7 @@ Examples:
       person_income = None # None variable. No Value is assigned to this variable.
       x = 4 + 5j # Complex number
 
-### Rules for Variables
+## 📚 Rules for Variables
 1. Variables can be combination of uppercase and lowercase letters, digits or underscore (_).
 2. It can not start with digit. It must begin with a letter or underscore (_).
 3. Variables can not use symbols or special characters like !,#,@,%,$,* etc.
@@ -19,14 +19,14 @@ Examples:
 5. Variables are case sensitive.
 6. In python you can assign variable any value, not like strict typed language where you have to declare data type of a variable in advance.
 
-### Variables Data Types
+## 🔄 Variables Data Types
 1. Integers
 2. String
 3. Float
 4. Boolean
 5. None
 
-### Exercise
+## 🧠 Exercise
 1. Create a variable called break and assign it a value 5. See what happens and find out the reason behind the behavior that you see.
 2. Create two variables. One to store your birth year and another one to store current year. Now calculate your age using these two variables
 3. Store your first, middle and last name in three different variables and then print your full name using these variables
