@@ -1,8 +1,8 @@
 # Python Numbers
 
-IIn Python, a string is a sequence of characters enclosed in either single quotes ('...') or double quotes ("..."). Strings are used to represent text and are one of the most commonly used data types in Python. 
+In Python, a string is a sequence of characters enclosed in either single quotes ('...') or double quotes ("..."). Strings are used to represent text and are one of the most commonly used data types in Python. 
 
-## 🔢 Rules and key characteristics
+## 🔧 Basic Syntax
 ### 1. Definition and Syntax (string)
 * Strings are defined using single quotes ('...') or double quotes ("...").
 * Triple quotes ('''...''' or """...""") are used for **multi-line strings**.
@@ -87,7 +87,7 @@ Examples:
 * **startswith** – Check if string is starting with some string or not.
 * **len** – Get the length of the string.
 
-Examples:
+### ✅ Example:
 
     "hello".upper()       # 'HELLO'
     "HELLO".lower()       # 'hello'
