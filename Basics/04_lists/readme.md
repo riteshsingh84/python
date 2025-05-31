@@ -110,6 +110,12 @@ Lists can contain other lists:
 ### 3. Check membership:
     "banana" in fruits              # True or False
 
+### 3. Count items in list:
+
+    fruits = ["apple", "banana", "apple", "cherry", "apple"]
+    print(fruits.count("apple"))  # Output: 3 Here, the number 2 appears three times in the list.
+
+
 ## 📚 Useful Functions
 
 * **len** – Get number of items in list
@@ -122,6 +128,7 @@ Lists can contain other lists:
 * **pop** – Remove the last item from list.
 * **del list[index]** – Delete item from list by index.
 * **len** – Get the length of the string.
+* **list.count(value)** – The count() function in Python is used with lists to count how many times a specific element appears in the list.
 
 ## 🧠 Exercise
 
