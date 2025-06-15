@@ -4,7 +4,7 @@ Do this small project after reading the basics of python. It will help you to en
 
 1. A simple rock-paper-scissors game where the user plays against the computer.    
 
-    [Solution]https://github.com/riteshsingh84/python/blob/main/Basics/DemoProject/01_rock_paper_scissors_game.py)
+    [Solution](https://github.com/riteshsingh84/python/blob/main/Basics/DemoProject/01_rock_paper_scissors_game.py)
 
 2. A simple loan payment calculator that calculates the monthly payment based on the principal amount, annual interest rate, and loan term in years.
 
