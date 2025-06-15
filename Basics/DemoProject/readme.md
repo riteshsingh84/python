@@ -28,3 +28,10 @@ Do this small project after reading the basics of python. It will help you to en
 
     [Solution](https://github.com/riteshsingh84/python/tree/main/DemoProject/05_dice_game.py)
 
+6. Create a simple chatbot using OpenAI API
+    This script uses the OpenRouter API to create a simple chatbot that can respond to user queries.
+    It supports multiple models, including DeepSeek R1 and Gemini 2.0 Flash Exp.
+    You can use this script to ask questions and get answers from the models.   
+
+    [Solution](https://github.com/riteshsingh84/python/tree/main/DemoProject/06_custom_chatbot.py)
+
