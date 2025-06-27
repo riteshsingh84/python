@@ -38,6 +38,17 @@ Translated files will be saved in the output/ directory, with language codes app
 
 **Logging:** Errors are logged to the file specified in appconfig.ini.
 
+## Best AI Model APIs for Batch Translation (Web Applications)
+| Model/API                | Translation Quality         | Speed           | Cost (per 1M tokens) | Context Window | Strengths                                                                 | Weaknesses                                 |
+|--------------------------|-----------------------------|------------------|----------------------|----------------|---------------------------------------------------------------------------|--------------------------------------------|
+| OpenAI GPT-4o            | ⭐⭐⭐⭐⭐ (very high)           | ⚡ Fast           | $3.50                | 128k tokens     | Excellent fluency, context retention, supports function calling          | Slightly expensive for large-scale use     |
+| Google Gemini 2.5 Pro    | ⭐⭐⭐⭐½                       | ⚡⚡ Very Fast     | $3.44                | 1M tokens       | Fastest output, strong multilingual support, large context               | Slightly less nuanced than GPT-4o          |
+| DeepSeek R1 (May 2025)   | ⭐⭐⭐⭐                        | ⚡⚡ Very Fast     | $0.96                | 128k tokens     | Great value, low latency (2.37s), good for bulk translation              | Slightly lower fluency in complex texts    |
+| Claude 4 Opus            | ⭐⭐⭐⭐⭐                      | ⚡ Moderate       | $30.00               | 200k tokens     | Very accurate, especially in legal/medical domains                       | Expensive, slower than others              |
+| Mistral 7B/8x22B         | ⭐⭐⭐½                        | ⚡⚡ Fast          | $0.40–$1.00          | 32k–65k tokens  | Lightweight, cost-effective                                               | Less consistent in nuanced translation     |
+| Meta LLaMA 3 (70B)       | ⭐⭐⭐⭐                        | ⚡ Moderate       | $1.00–$1.50          | 128k tokens     | Open-source, customizable                                                 | Needs fine-tuning for best results         |
+
+
 ## License
 This project is for educational purposes.
 
