@@ -48,6 +48,7 @@ Translated files will be saved in the output/ directory, with language codes app
 | Mistral 7B/8x22B         | ⭐⭐⭐½                        | ⚡⚡ Fast          | $0.40–$1.00          | 32k–65k tokens  | Lightweight, cost-effective                                               | Less consistent in nuanced translation     |
 | Meta LLaMA 3 (70B)       | ⭐⭐⭐⭐                        | ⚡ Moderate       | $1.00–$1.50          | 128k tokens     | Open-source, customizable                                                 | Needs fine-tuning for best results         |
 
+**Note:** Please check the price at real time. Purpose is to show comparison among models.
 
 ## License
 This project is for educational purposes.
