@@ -1,6 +1,6 @@
-# AITranslator
+# AI Translator
 
-AITranslator is a Python tool for translating resource files (such as .resx, .json, .csv, and .xml) into multiple languages using any LLM AI model like OpenAI GPT-4o, Google Gemini 2.5 Pro,Claude 4 Opus etc. It is designed to help  localize application resources efficiently and maintain a tone consistent with standard product communication—clear, concise, and customer-friendly.
+AI Translator is a Python tool for translating resource files (such as .resx, .json, .csv, and .xml) into multiple languages using any LLM AI model like OpenAI GPT-4o, Google Gemini 2.5 Pro,Claude 4 Opus etc. It is designed to help  localize application resources efficiently and maintain a tone consistent with standard product communication — clear, concise, and customer-friendly.
 
 ## Features
 
@@ -34,7 +34,7 @@ Use --languages to specify target languages (by name or code, e.g., en,de,fr,it)
 Translated files will be saved in the output/ directory, with language codes appended to file names.
 
 ### 6. Customization
-**Prompt Template:** Edit promptconfig.ini to change how the translation prompt is constructed.
+**Prompt Template:** Edit promptconfig.ini to change how the translation prompt is constructed. You have full flexibility to write your own instructions, tones and rules for translations. 
 
 **Logging:** Errors are logged to the file specified in appconfig.ini.
 
