@@ -7,8 +7,11 @@ translates their values into multiple languages using the OpenAI GPT API, and wr
 
 import sys
 import os
+
 # Ensure src directory is in sys.path for imports
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), 'src'))
+
+script_dir = os.path.dirname(os.path.abspath(__file__))
 
 import argparse
 from src.appconfig import AppConfig
@@ -92,7 +95,9 @@ def main():
         print('No valid languages specified.')
         return
 
-    app_config = AppConfig(args.appconfig)
+    appconfig_Path = os.path.join(script_dir, args.appconfig)
+    
+    app_config = AppConfig(appconfig_Path)
     input_path = app_config.input_path
     output_path = app_config.output_path
     api_key = app_config.api_key
@@ -107,7 +112,9 @@ def main():
         print(f'Input path {input_path} is not a directory.')
         return
 
-    translator = Translator(api_key, model, prompt_config_file='promptconfig.ini', base_url=base_url)
+    promptconfig_filePath = os.path.join(script_dir, 'promptconfig.ini')
+
+    translator = Translator(api_key, model, prompt_config_file=promptconfig_filePath, base_url=base_url)
 
     for file_name in os.listdir(input_path):
         ext = os.path.splitext(file_name)[1].lower()
