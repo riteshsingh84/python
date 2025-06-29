@@ -1,0 +1,9 @@
+# Ignore all files in input, logs, and output folders
+Projects/AITranslator/input/*
+Projects/AITranslator/logs/*
+Projects/AITranslator/output/*
+
+# But keep the folders themselves
+!Projects/AITranslator/input/
+!Projects/AITranslator/logs/
+!Projects/AITranslator/output/
