@@ -79,5 +79,3 @@ Please follow [PEP 8](https://peps.python.org/pep-0008/) and include docstrings/
 
 ## 📜 License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
----
