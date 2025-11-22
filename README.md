@@ -7,9 +7,6 @@
 
 A collection of Python scripts and utilities for learning, automation, and productivity. Designed to be modular, beginner-friendly, and easy to extend.
 
-
----
-
 ## 📑 Table of Contents
 - [Overview](#-overview)
 - [Features](#-features)
@@ -19,16 +16,12 @@ A collection of Python scripts and utilities for learning, automation, and produ
 - [Contributing](#-contributing)
 - [License](#-license)
 
----
-
 ## 🔍 Overview
 
  - This repository is meant for beginners to assist them in their learning of Python.
  - The repository covers a wide range of algorithms and other programs, and would prove immensely helpful for everybody interested in Python programming.
  - If this is your first time coding in Python, I would suggest to begin from the Basics.
  - They are simple to understand and hopefully will you enjoy step by step learning.
-
----
 
 ## ✨ Features
 - Modular and reusable scripts
@@ -37,7 +30,6 @@ A collection of Python scripts and utilities for learning, automation, and produ
 - Ready for automation and CI
 - Useful Projects
 
----
 ## 📂 Projects 
 
 <!-- PROJECTS_START -->
@@ -55,8 +47,6 @@ AI Translator is a Python tool for translating resource files (such as .resx, .j
 
 <!-- PROJECTS_END -->
 
----
-
 ## ⚙️ Installation
 ```bash
 git clone https://github.com/riteshsingh84/python.git
@@ -73,15 +63,11 @@ venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
----
-
 ## ▶️ Usage
 Run any script:
 ```bash
 python path/to/script.py
 ```
-
----
 
 ## 🤝 Contributing
 Contributions are welcome!
@@ -90,8 +76,6 @@ Contributions are welcome!
 3. Submit a pull request
 
 Please follow [PEP 8](https://peps.python.org/pep-0008/) and include docstrings/comments.
-
----
 
 ## 📜 License
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
