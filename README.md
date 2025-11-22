@@ -13,7 +13,7 @@ A collection of Python scripts and utilities for learning, automation, and produ
 ## 📑 Table of Contents
 - [Overview](#-overview)
 - [Features](#-features)
-- [Projects](#-projects-auto-generated)
+- [Projects](#-projects)
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [Contributing](#-contributing)
